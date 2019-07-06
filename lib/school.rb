@@ -5,7 +5,7 @@ class School
 def initialize
 end
 
-def add_student
+def add_student(name, grade)
 end
 
 def grade(students)
