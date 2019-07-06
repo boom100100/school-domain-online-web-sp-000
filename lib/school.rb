@@ -30,7 +30,7 @@ def grade(grade)
 end
 
 def sort
-  @roster.sort {|a, b|
+  @roster = @roster.sort {|a, b|
     a <=> b
   }
 end
