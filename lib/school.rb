@@ -33,6 +33,11 @@ def sort
   @roster.sort {|a, b|
     a <=> b
   }
+  @roster.each {|key, value|
+    value.sort {|a, b|
+      a <=> b
+    }
+  }
 
 end
 
