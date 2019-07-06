@@ -17,7 +17,10 @@ def roster=(roster)
 end
 
 def add_student(names, grade)
-  @roster[grade] = []
+  if @roster == nil
+    @roster[grade] = []
+  end
+  
   @roster[grade] << names
 end
 
