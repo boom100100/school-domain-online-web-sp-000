@@ -33,7 +33,7 @@ def sort
   @roster = @roster.sort {|a, b|
     a <=> b
   }
-  @roster.each {|n, array1|
+  @roster = @roster.each {|n, array1|
     array1.sort {|a, b|
       a <=> b
     }
