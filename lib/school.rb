@@ -30,15 +30,7 @@ def grade(grade)
 end
 
 def sort
-  @roster = @roster.sort {|a, b|
-    a <=> b
-  }
-  @roster = @roster.each {|n, array1|
-    array1 = array1.sort {|a, b|
-      a <=> b
-    }
-  }
-  @roster
+  self.sort
 end
 
 
