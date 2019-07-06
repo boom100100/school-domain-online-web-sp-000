@@ -38,6 +38,7 @@ def sort
       a <=> b
     }
   }
+  @roster
 end
 
 
