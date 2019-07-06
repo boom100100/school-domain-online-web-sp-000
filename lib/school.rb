@@ -39,6 +39,8 @@ def sort
     }
   }
 
+  @roster
+
 end
 
 
