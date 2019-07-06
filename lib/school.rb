@@ -2,7 +2,7 @@
 
 class School
 
-def initialize(roster)
+def initialize(school)
   roster = {}
 end
 
