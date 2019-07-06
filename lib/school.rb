@@ -5,7 +5,7 @@ class School
 
 def initialize(school)
   @school = school
-  @roster = {}
+  @school.roster = {}
 end
 
 def roster
