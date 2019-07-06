@@ -3,7 +3,7 @@
 class School
 
 def initialize
-  
+
 end
 
 def add_student(name, grade)
