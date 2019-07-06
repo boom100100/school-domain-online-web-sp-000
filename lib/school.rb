@@ -17,7 +17,7 @@ def roster=(roster)
 end
 
 def add_student(names, grade)
-  if @roster == {}
+  if !@roster.include?(grade)
     @roster[grade] = []
   end
 
