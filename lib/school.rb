@@ -34,7 +34,7 @@ def sort
     a <=> b
   }
   @roster.each {|key, value|
-    value.sort {|a, b|
+    key.sort {|a, b|
       a <=> b
     }
   }
