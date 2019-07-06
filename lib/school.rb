@@ -17,7 +17,7 @@ def roster=(roster)
 end
 
 def add_student(names, grade)
-  if @roster == nil
+  if @roster == {}
     @roster[grade] = []
   end
 
