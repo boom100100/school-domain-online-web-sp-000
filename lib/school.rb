@@ -9,11 +9,11 @@ def initialize(school)
 end
 
 def roster
-  @roster
+  @school.roster
 end
 
 def add_student(names, grade)
-  @roster[grade] == names
+  @school.roster[grade] == names
 end
 
 def grade(students)
