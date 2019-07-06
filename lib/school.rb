@@ -35,8 +35,8 @@ def sort
   }
   @roster.each {|n, array1|
     array1.sort {|a, b|
-    a <=> b
-  }
+      a <=> b
+    }
   }
 end
 
