@@ -22,7 +22,7 @@ def add_student(names, grade)
   end
 
   @roster[grade] << names
-  
+
 end
 
 def grade(grade)
