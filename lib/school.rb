@@ -5,15 +5,15 @@ class School
 
 def initialize(school)
   @school = school
-  @school.roster = {}
+  @roster = {}
 end
 
 def roster
-  @school.roster
+  @roster
 end
 
 def add_student(names, grade)
-  @school.roster[grade] == names
+  @roster[grade] == names
 end
 
 def grade(students)
