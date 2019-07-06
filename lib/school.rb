@@ -30,7 +30,7 @@ def grade(grade)
 end
 
 def sort
-  
+
   @roster.each {|key, value|
     value.sort {|a, b|
       a <=> b
