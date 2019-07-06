@@ -12,10 +12,7 @@ def roster
 end
 
 def add_student(names, grade)
-  names.each {|name|
-    @roster[grade] << name
-  }
-
+  @roster[grade] << name
 end
 
 def grade(students)
