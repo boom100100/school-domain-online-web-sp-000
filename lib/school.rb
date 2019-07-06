@@ -12,12 +12,13 @@ def roster
   @roster
 end
 
-def roster=(grade, names)
-  @roster[grade] = names
+def roster=(roster)
+  @roster = roster
 end
 
 def add_student(names, grade)
-  roster(grade, names)
+  @roster[grade] == []
+  @roster[grade] << names
 end
 
 def grade(students)
